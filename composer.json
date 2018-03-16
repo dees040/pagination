@@ -1,0 +1,41 @@
+{
+    "name": "dees040/pagination",
+    "description": "Dynamic pagination for your Eloquent models.",
+    "keywords": [],
+    "authors": [
+        {
+            "name": "Dees Oomens",
+            "email": "dees@owow.io"
+        },
+        {
+            "name": "Thomas van der Veen",
+            "email": "thomas@owow.io"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "illuminate/support": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.0.*|7.0.*",
+        "orchestra/testbench": "3.5.*|3.6.*"
+    },
+    "autoload": {
+       "psr-4": {
+            "dees040\\Pagination\\": "src/Pagination"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "dees040\\Pagination\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "dees040\\Pagination\\ServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT"
+}
