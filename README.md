@@ -1,5 +1,9 @@
 # Dynamic pagination in Laravel
 
+<a href="https://packagist.org/packages/dees040/pagination"><img src="https://poser.pugx.org/dees040/pagination/v/stable" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/dees040/pagination"><img src="https://poser.pugx.org/dees040/pagination/downloads" alt="Total Downloads"></a>
+<a href="https://travis-ci.org/dees040/pagination"><img src="https://travis-ci.org/dees040/pagination.svg?branch=master" alt="Build status"></a>
+
 Dynamic pagination for your Eloquent models. Paginate, order and sort with just the query parameters. 
 
 ## Installation
